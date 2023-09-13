@@ -24,8 +24,6 @@ export default function Vans(){
   
     } ,[])
 
-    console.log(vans);
-
     const vanElements=vans.map(function(van){
 
        return <div className="">

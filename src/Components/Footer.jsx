@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Footer(){
     return(
         <footer className="bg-[#252525] w-full p-4">
