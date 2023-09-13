@@ -35,7 +35,6 @@ export default function Vans(){
                 <span className={"rounded text-white p-1 px-4 text-sm " + (van.type=='luxury'? ' bg-[#161616]' : ' ') + (van.type=='simple' ?  'bg-[#E17654]' : ' ') + (van.type=='rugged' ?' bg-[#115E59]' : ' ')}> {van.type}</span>
             </div>
     })
-    console.log(vanElements);
 
     return(
         <div className="grid">
