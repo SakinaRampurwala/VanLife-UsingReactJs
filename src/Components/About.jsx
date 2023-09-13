@@ -1,6 +1,8 @@
 import React from "react";
 import imgAbt from '../aboutBg.png' 
 import {Link} from 'react-router-dom'
+import Footer from "./Footer";
+
 export default function About(){
     return(
         <div className="grid place-items-center bg-[#FFF7ED]">
@@ -17,7 +19,7 @@ export default function About(){
                     <Link className="rounded bg-[#000000] text-white p-2 col-start-1 col-end-3 text-center" to='/vans'>Explore Our Vans</Link>
                 </div>
             </div>
-
+            <Footer />
         </div>
     )
 }

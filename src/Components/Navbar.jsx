@@ -1,6 +1,8 @@
 import React from "react";
 import Home from './Home';
 import About from './About';
+import Vans from './Vans';
+
 import { BrowserRouter , Routes , Route, Link } from "react-router-dom";
 
 export default function Navbar(){
@@ -32,6 +34,8 @@ export default function Navbar(){
                 <Routes>
                     <Route path="/" element={<Home/>}></Route>
                     <Route path="/about" element={<About/>}></Route>
+                    <Route path="/vans" element={<Vans/>}></Route>
+
                 </Routes>
             </BrowserRouter>
 
