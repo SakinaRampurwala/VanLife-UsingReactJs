@@ -21,9 +21,11 @@ export default function Navbar(){
                 </div>
                 <div class="w-full block  md:flex md:items-center justify-end md:w-auto">
                     <div class="text-sm md:flex-grow">
+
                         <Link to='/'  className="block mt-4 md:inline-block md:mt-0 text-base	mr-4">Home</Link>
                         <Link to='/about'  className="block mt-4 md:inline-block md:mt-0 text-base	mr-4">About</Link>
                         <Link to='/vans'  className="block mt-4 md:inline-block md:mt-0 text-base mr-4">Vans</Link>
+                        
                     </div>
                     <div>
                 </div>
