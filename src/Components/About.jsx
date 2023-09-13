@@ -6,7 +6,6 @@ import Footer from "./Footer";
 export default function About(){
     return(
         <div className="grid place-items-center bg-[#FFF7ED]">
-            
             <img src={imgAbt} alt="test" className="w-full"/>
             <div className="grid gap-8 max-w-screen-lg p-8 ">
                 <h2 className="text-3xl">Don’t squeeze in a sedan when you could relax in a van.</h2>

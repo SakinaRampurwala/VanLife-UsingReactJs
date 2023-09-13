@@ -5,10 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Vans(){
 
-    // let [apiData, setApiData]=React.useState([])
-    // fetch('api/vans')
-    // .then(response=> response.json())
-    // .then(data=> setApiData(data));
+    
 
     const [vans, setVans] = React.useState([])
 

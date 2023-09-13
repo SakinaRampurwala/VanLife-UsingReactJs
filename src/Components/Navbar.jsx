@@ -9,7 +9,6 @@ export default function Navbar(){
     return(
         <div>
             <BrowserRouter>
-
                 <nav class="sticky top-0 flex items-center justify-between flex-wrap bg-[#FFF0DD] p-6">
                 <div class="flex items-center flex-shrink-0 text-black mr-6">
                     <Link to='/'  className="block mt-4 md:inline-block md:mt-0 text-base	mr-4"><span class="font-semibold text-xl tracking-tight">#VANLIFE</span></Link>
