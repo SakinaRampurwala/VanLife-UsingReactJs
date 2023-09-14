@@ -24,12 +24,13 @@ export default function Vans(){
     const vanElements=vans.map(function(van){
 
        return <div className="">
-                <img src={van.imageUrl} />
+                 <Server/>
+                <img src={van.imageUrl} alt='bgImage' />
                 <div className="grid md:grid-cols-3 sm:grid-cols-1 justify-items-stretch">
                     <h3 className="col-span-2 font-semibold md:text-2xl sm:text-base">{van.name}</h3>
                     <h3 className=" font-semibold md:justify-self-end">${van.price} <p className="font-light text-xs">/day</p></h3>
                 </div>
-                <span className={"rounded text-white p-1 px-4 text-sm " + (van.type=='luxury'? ' bg-[#161616]' : ' ') + (van.type=='simple' ?  'bg-[#E17654]' : ' ') + (van.type=='rugged' ?' bg-[#115E59]' : ' ')}> {van.type}</span>
+                <span className={"rounded text-white p-1 px-4 text-sm " + (van.type==='luxury'? ' bg-[#161616]' : ' ') + (van.type==='simple' ?  'bg-[#E17654]' : ' ') + (van.type==='rugged' ?' bg-[#115E59]' : ' ')}> {van.type}</span>
             </div>
     })
 
