@@ -1,5 +1,4 @@
 import React from "react";
-import Server from '../server'
 import Footer from "./Footer";
 import { Link } from 'react-router-dom';
 
@@ -24,7 +23,6 @@ export default function Vans(){
     const vanElements=vans.map(function(van){
 
        return <div className="">
-                 <Server/>
                 <img src={van.imageUrl} alt='bgImage' />
                 <div className="grid md:grid-cols-3 sm:grid-cols-1 justify-items-stretch">
                     <h3 className="col-span-2 font-semibold md:text-2xl sm:text-base">{van.name}</h3>
