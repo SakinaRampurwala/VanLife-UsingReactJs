@@ -1,3 +1,7 @@
+
+![image](https://github.com/SakinaRampurwala/VanLife-UsingReactJs/assets/107458396/18675a90-f558-44f3-95eb-c4e92c2b29fd)
+![image](https://github.com/SakinaRampurwala/VanLife-UsingReactJs/assets/107458396/c7d26cae-1ce7-4788-a12d-421597377627)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### `npm test
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
